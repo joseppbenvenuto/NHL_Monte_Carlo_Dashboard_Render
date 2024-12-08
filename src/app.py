@@ -181,14 +181,12 @@ app.layout = html.Div([
     
     # Instrcutions
     html.Div(
-        "Through a Monte Carlo simulation of 100,000, the dashboard displays the probability of winning between two selected teams. Each \
-        dropdown list, for headings Team1 and Team2, shows a list of all the teams in the NHL and \
-        allows the user to select the two teams they want to face off. Once the teams are chosen, the \
-        probabilities for each team to win will be generated. The probabilities can be viewed under the \
-        dropdown lists and through the bar plot. The bar representing the team with the higher probability \
-        of winning will be coloured green, and the bar representing the team with the lower probability of \
-        winning will be coloured red. The average score for the matchup can be found under the average score \
-        heading in the top left corner. This dashboard can be used for determining playoff series outcomes.",
+        "The dashboard utilizes a Monte Carlo simulation with 100,000 iterations to calculate and display the winning probabilities for two selected NHL teams. /
+        Users can choose teams from dropdown menus labeled Team 1 and Team 2, which list all NHL teams. Once selections are made, the dashboard generates and /
+        presents the probabilities for each team to win. These probabilities are displayed both below the dropdown menus and visually in a /
+        bar plot: a green bar represents the team with the higher probability, while a red bar indicates the lower probability. Additionally, /
+        the average predicted score for the matchup is prominently displayed under the Average Score heading in the top-left corner. This interactive /
+        dashboard serves as a valuable tool for exploring team matchups and predicting playoff series outcomes.",
         
         style = {
             'padding-top':60,
